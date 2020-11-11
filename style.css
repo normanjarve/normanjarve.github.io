@@ -1,13 +1,35 @@
+:root {
+  /* tekstiosa nimes on vabalt valitud */
+  --variable: 50vw;
+}
+
 * {
   box-sizing:
   border-box;
 }
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+section {
+  position: relative;
+}
+
+span {
+  background: black;
+  /* display: block; */
+  width: var(--variable);
+  height: 10vw;
+}
+
 body {
   /* background-color: cyan;
   background-color: rgb(255, 0, 0); */
   margin: 0;
   padding: 0;
-  background-color: rgba(255, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 1);
 }
 .heading1 {
   /* font-size: 50px; */
@@ -16,8 +38,14 @@ body {
 #heading2 {
   font-size: 1rem;
 }
-section p {
+p {
   color: #FFFFFF;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .pilt {
@@ -38,10 +66,10 @@ section p {
 
 #pilt1 {
   position: absolute;
-  top: 20px;
+  top: 0;
   right: 0;
   margin: 0;
-  width: 30vw;
+  width: 40vw;
 }
 
 #pilt2 {
@@ -49,3 +77,84 @@ section p {
   top: 0;
 
 }
+
+.hello, ol {
+  opacity: 0.5;
+  display: none;
+}
+
+p {
+  display: inline;
+}
+
+.tooltip {
+  background: rgba(0 ,0 ,0 , 0.7);
+}
+
+.fixed {
+  position:fixed;
+}
+
+.bottom-left {
+  bottom: 50px;
+  left: 50px;
+}
+
+.first {
+  display: block;
+  font-size: 2em;
+  background-color: orange;
+  background-image: url(pilt.jpg);
+  /* background-size: cover; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.button {
+  position: absolute;
+  width: 179px;
+  height: 80px;
+  right: 100px;
+  top: 220px;
+
+  border: 2px solid #A5A5A5;
+  box-sizing: border-box;
+  border-radius: 1px;
+
+}
+
+.button a {
+  display: block;
+  margin: 0 auto;
+  padding: 15px 32px;
+  vertical-align: center;
+  font-family: Maison Neue;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 48px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+
+  color: #A5A5A5;
+}
+
+.textbox p {
+  position: fixed;
+  width: 843px;
+  height: 381px;
+  left: 100px;
+  top: 569px;
+
+  font-family: Maison Neue;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 160%;
+  /* or 64px */
+
+
+  color: #FFFFFF;
+  }
