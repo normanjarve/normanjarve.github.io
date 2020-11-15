@@ -156,7 +156,7 @@ body {
   border-radius: 1px; */
 }
 
-.button1 a, .button2 a, .button3 a, .button4 a {
+.button1 a, .button2 a, .button3 a, .button4 a, .logotext a {
   display: block;
   margin: 0 auto;
   /* padding: 8px 10px; */
@@ -175,17 +175,93 @@ body {
   opacity: .65;
 }
 
-.textbox p {
+.logo a {
+  position: absolute;
+  width: 260px;
+  height: 121px;
+  left: 200px;
+  top: 152px;
+
+  font-family: Maison Neue;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 121px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+
+  color: #FFFFFF
+}
+
+.logotext {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  left: 470px;
+  top: 220px;
+
+  /* border: 2px solid #A5A5A5;
+  box-sizing: border-box;
+  border-radius: 1px; */
+}
+
+.logotext a {
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.concept a {
   position: fixed;
-  width: 843px;
+  width: 30px;
   height: 381px;
-  left: 100px;
-  top: 569px;
+  left: 300px;
+  top: 1440px;
+  padding: 0;
+  font-family: Maison Neue;
+  font-style: normal;
+  font-weight: 300;
+  /* font-size: 20px; */
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  color: #A5A5A5;
+  opacity: .65;
+  font-size: 1.5rem;
+}
+
+.largeheader {
+  position: absolute;
+  width: 797px;
+  height: 282px;
+  right: 2467px;
+  top: 847px;
 
   font-family: Maison Neue;
   font-style: normal;
   font-weight: 300;
-  font-size: 1.5vh;
+  font-size: 116px;
+  line-height: 141px;
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+
+}
+
+.textbox {
+  position: fixed;
+  width: 843px;
+  height: 381px;
+  left: 300px;
+  top: 800px;
+
+  font-family: Maison Neue;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
   line-height: 160%;
   /* or 64px */
 
