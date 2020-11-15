@@ -111,9 +111,10 @@ body {
 .button {
   position: absolute;
   width: 90px;
-  height: 60px;
+  height: 40px;
   right: 100px;
   top: 220px;
+
   /* border: 2px solid #A5A5A5;
   box-sizing: border-box;
   border-radius: 1px; */
@@ -122,9 +123,10 @@ body {
 .button2 {
   position: absolute;
   width: 90px;
-  height: 60px;
+  height: 40px;
   right: 190px;
   top: 220px;
+
   /* border: 2px solid #A5A5A5;
   box-sizing: border-box;
   border-radius: 1px; */
@@ -133,7 +135,7 @@ body {
 .button a, .button2 a {
   display: block;
   margin: 0 auto;
-  padding: 20px 20px;
+  padding: 8px 10px;
   vertical-align: center;
   font-family: Maison Neue;
   font-style: normal;
