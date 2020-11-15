@@ -159,17 +159,20 @@ body {
 .button1 a, .button2 a, .button3 a, .button4 a {
   display: block;
   margin: 0 auto;
-  padding: 8px 10px;
+  /* padding: 8px 10px; */
   vertical-align: center;
   font-family: Maison Neue;
   font-style: normal;
   font-weight: 300;
-  font-size: 1.5vh;
+  /* font-size: 20px; */
   line-height: 24px;
   align-items: center;
   text-align: center;
   text-decoration: none;
   color: #A5A5A5;
+  font-size: 1.5rem;
+  padding: .2rem 1rem;
+  opacity: .65;
 }
 
 .textbox p {
