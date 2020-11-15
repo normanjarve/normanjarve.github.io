@@ -108,7 +108,7 @@ body {
   background-color: rgba(0, 0, 0, 1);
 }
 
-.button {
+.button1 {
   position: absolute;
   width: 90px;
   height: 40px;
@@ -124,7 +124,7 @@ body {
   position: absolute;
   width: 90px;
   height: 40px;
-  right: 190px;
+  right: 210px;
   top: 220px;
 
   /* border: 2px solid #A5A5A5;
@@ -132,7 +132,31 @@ body {
   border-radius: 1px; */
 }
 
-.button a, .button2 a {
+.button3 {
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  right: 320px;
+  top: 220px;
+
+  /* border: 2px solid #A5A5A5;
+  box-sizing: border-box;
+  border-radius: 1px; */
+}
+
+.button4 {
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  right: 430px;
+  top: 220px;
+
+  /* border: 2px solid #A5A5A5;
+  box-sizing: border-box;
+  border-radius: 1px; */
+}
+
+.button1 a, .button2 a, .button3 a, .button4 a {
   display: block;
   margin: 0 auto;
   padding: 8px 10px;
