@@ -213,7 +213,7 @@ body {
 }
 
 .concept a {
-  position: fixed;
+  position: relative;
   width: 30px;
   height: 381px;
   left: 300px;
@@ -232,18 +232,18 @@ body {
   font-size: 1.5rem;
 }
 
-.largeheader {
-  position: absolute;
-  width: 797px;
+.heading1 {
+  position: relative;
+  width: 740px;
   height: 282px;
-  right: 2467px;
-  top: 847px;
+  left: 300px;
+  top: 1400px;
 
   font-family: Maison Neue;
   font-style: normal;
   font-weight: 300;
-  font-size: 116px;
-  line-height: 141px;
+  font-size: 88px;
+  line-height: 114px;
   display: flex;
   align-items: center;
 
@@ -252,11 +252,11 @@ body {
 }
 
 .textbox {
-  position: fixed;
-  width: 843px;
+  position: relative;
+  width: 600px;
   height: 381px;
   left: 300px;
-  top: 800px;
+  top: 1350px;
 
   font-family: Maison Neue;
   font-style: normal;
