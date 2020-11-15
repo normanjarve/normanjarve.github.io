@@ -270,16 +270,16 @@ body {
 
 #ConceptA {
   position: absolute;
-  top: 900px;
-  left: 1300px;
+  top: 1200px;
+  left: 1200px;
   margin: 0;
-  width: 65vw;
+  width: 45vw;
 }
 
 #ConceptB {
   position: absolute;
-  top: 1200px;
-  left: 1100px;
+  top: 1400px;
+  left: 1120px;
   margin: 0;
-  width: 35vw;
+  width: 15vw;
 }
