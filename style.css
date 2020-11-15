@@ -164,7 +164,7 @@ body {
   font-family: Maison Neue;
   font-style: normal;
   font-weight: 300;
-  font-size: 3vw;
+  font-size: 1.5vh;
   line-height: 24px;
   align-items: center;
   text-align: center;
@@ -182,7 +182,7 @@ body {
   font-family: Maison Neue;
   font-style: normal;
   font-weight: 300;
-  font-size: 3vw;
+  font-size: 1.5vh;
   line-height: 160%;
   /* or 64px */
 
