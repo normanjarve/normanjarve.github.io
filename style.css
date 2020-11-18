@@ -223,10 +223,10 @@ a:hover {
 }
 
 .textbox {
-  position: relative;
+  position: absolute;
   width: 600px;
   height: 381px;
-  left: 1100px;
+  left: 1050px;
   top: 900px;
 
   font-family: Maison Neue;
