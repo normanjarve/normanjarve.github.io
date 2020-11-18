@@ -239,10 +239,13 @@ a:hover {
 
 #ConceptA {
   position: absolute;
-  top: 800px;
+  top: 750px;
   left: 400px;
-  max-width: 30%;
+  width: 35%;
   height: auto;
+  background: #222222;
+  margin: auto;
+  padding: 30px 30px;
 }
 /*
 #ConceptB {
