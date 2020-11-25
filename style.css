@@ -131,13 +131,18 @@ body {
   align-items: center;
   text-align: center;
   text-decoration: none;
+  transition: color .4s;
   color: #A5A5A5;
   font-size: 1.5rem;
 }
 
 a:hover {
   color: #222222;
-  transition: .6s;
+  transition: color .4s;
+}
+
+a:visited {
+  /* color: red; */
 }
 
 
@@ -250,6 +255,7 @@ a:hover {
 
 /*
 Kodune töö: Kuidas luua scrolldownil kaduv header.
-Küsimused 1. Kuidas panna pildi kõrvale tektsi, mis töötaks erinevatel ekraanidel.
+Küsimused 1. Kuidas panna pildi kõrvale tektsi, mis töötaks erinevatel ekraanidel. display inline-block
           2. Kuidas linkida
+          <a href
  */
