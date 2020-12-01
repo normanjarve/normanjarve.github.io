@@ -227,12 +227,29 @@ a:visited {
   font-size: 1.5rem;
 }
 
+.heading3 {
+  position: absolute;
+  width: 100px;
+  height: 282px;
+  left: 1200px;
+  top: 600px;
+
+  font-family: Maison Neue;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3.3rem;
+  line-height: auto;
+  display: flex;
+  align-items: center;
+  color: #222222;
+}
+
 .textbox {
   position: absolute;
   width: 600px;
   height: 381px;
   left: 1200px;
-  top: 900px;
+  top: 850px;
 
   font-family: Maison Neue;
   font-style: normal;
@@ -253,9 +270,35 @@ a:visited {
   padding: 30px 30px;
 }
 
+.footer {
+  position: absolute;
+  left: 0;
+  top: 1500px;
+  width: 100%;
+  background-color: #222222;
+  color: white;
+  text-align: center;
+}
+
+.footer a {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 10px;
+  vertical-align: center;
+  font-family: Maison Neue;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  transition: color .4s;
+  color: #F4E5DE;
+  font-size: 1.5rem;
+}
+
 /*
 Kodune töö: Kuidas luua scrolldownil kaduv header.
-Küsimused 1. Kuidas panna pildi kõrvale tektsi, mis töötaks erinevatel ekraanidel. display inline-block
-          2. Kuidas linkida
-          <a href
+Küsimused 1. Ei saanud hakkama teksti pildi kõrvale panemisega.
+          2. Works nupp ei vii õigesse kohta.
  */
