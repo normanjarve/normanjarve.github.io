@@ -1,0 +1,200 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  max-width: inherit;
+  transition: all 0.3s linear;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body, html {
+  /* margin: 0; /* Võtab ära valge ääre kogu lehel */ */
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  font-family: Maison Neue;
+}
+
+body {
+  background-color: #F4E5DE;
+}
+
+header {
+  position: sticky;
+  max-width: 99%;
+  top: 1em;
+  padding: 1em 0;
+  z-index: 10;
+}
+
+h2 {
+  width: 100%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3.5em;
+  padding: 0;
+}
+
+h3 {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  line-height: 24px;
+  opacity: .65;
+  font-size: 1.5rem;
+  color: #A5A5A5;
+}
+
+a {
+  text-decoration: none;
+  color: #222222;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  overflow: hidden;
+  padding-bottom: 20vh;
+}
+
+section > div {
+  padding: 2em;
+  width: 100%;
+  height: auto;
+  flex-basis: auto;
+  position: relative;
+}
+
+img {
+  width: inherit;
+  height: 100%;
+  background: #222222;
+  margin: auto;
+  padding: 2em;
+}
+
+p {
+  font-size: 2em;
+}
+
+.about-text {
+  font-weight: 300;
+  font-size: 3.3rem;
+  color: #222222;
+}
+
+.works-text {
+  font-weight: 300;
+  font-size: 2em;
+  line-height: 160%;
+  color: #222222;
+}
+
+.menu {
+  float: right;
+}
+
+.nav {
+  font-style: normal;
+  font-weight: 300;
+}
+
+.menu a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5em;
+  width: 100px;
+  margin: 0;
+  font-size: 1.5em;
+  text-align: center;
+  position: relative;
+  color: #A5A5A5;
+  right: 2.5em;
+  top: 2em;
+}
+
+.menu a:hover {
+  color: #222222;
+  transition: color .4s;
+}
+
+.logo {
+  margin: 1em;
+  height: 6em;
+  font-size: 6em;
+  font-weight: 600;
+}
+
+.logo a {
+  font-size: 6em;
+}
+
+.col-1 {
+  width: 100%;
+  padding: 0;
+  left: 6em;
+  right: 4em;
+}
+
+.col-2 {
+  flex-basis: auto;
+  width: 50%;
+  left: 4em;
+  right: 4em;
+}
+
+
+.col-2v2 {
+  flex-basis: auto;
+  width: 50%;
+  left: 4em;
+  right: 4em;
+  top: 14em;
+}
+
+.col-2v3 {
+  flex-basis: auto;
+  width: 50%;
+  left: 4em;
+  right: 4em;
+  padding-right: 8em;
+}
+
+.col-3 {
+  width: 33.33%;
+}
+
+.img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contact {
+  color: #F4E5DE;
+}
+
+#contact {
+  position: absolute;
+  background-color: #222222;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding: 1em 1em;
+  vertical-align: center;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+}
